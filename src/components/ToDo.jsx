@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleCheck, faPen, faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 const ToDo = ({ tasks, filter, markDone, setUpdateData, deleteTask }) => {
   const filteredTasks = tasks.filter(task => {
