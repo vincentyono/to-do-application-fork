@@ -5,7 +5,7 @@ import ToDo from './components/ToDo.jsx';
 import FullName from './components/FullName.jsx';
 import TaskFilter from './components/TaskFilter.jsx';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 
 function App() {
